@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="text-xs font-black uppercase tracking-[0.18em] text-[#3C2484]">Why choose us</div>
           <h2 className="mt-4 text-4xl font-black tracking-[-0.035em] text-[#14102A] sm:text-5xl">Less theatre. More useful systems.</h2>
-          <p className="mt-5 text-lg leading-8 text-[#6E6690]">The goal is simple: make the workflow clearer, faster and easier to operate.</p>
+          <p className="mt-5 text-lg leading-8 text-[#6E6690]">The goal is simple: make the workflow clearer, faster and easier to operate.(not to replace your staff blindly.)</p>
         </div>
 
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
