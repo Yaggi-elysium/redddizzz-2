@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { ArrowRight, Check, MessageSquareText, PhoneCall, Sparkles, Workflow } from 'lucide-react';
+import { ArrowRight, Check, MessageSquareText, PhoneCall, ScanSearch, Workflow } from 'lucide-react';
 
 const CALENDLY_LINK = 'https://cal.com/elysiumai/automation-audit';
 const INSTAGRAM_LINK = 'https://www.instagram.com/elysium_ai_/';
@@ -60,7 +60,7 @@ export default function Hero() {
               <Connector />
               <FlowRow icon={<MessageSquareText className="h-5 w-5" />} title="Instant response" detail="SMS / WhatsApp starts the conversation" accent="violet" />
               <Connector />
-              <FlowRow icon={<Sparkles className="h-5 w-5" />} title="AI qualifies the lead" detail="Captures intent, context and next step" accent="blue" />
+              <FlowRow icon={<ScanSearch className="h-5 w-5" />} title="AI qualifies the lead" detail="Captures intent, context and next step" accent="blue" />
               <Connector />
               <FlowRow icon={<Check className="h-5 w-5" />} title="Team gets the opportunity" detail="CRM updated + follow-up triggered" accent="violet" />
             </div>
