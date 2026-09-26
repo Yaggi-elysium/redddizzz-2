@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_.8fr_.8fr]">
           <div className="max-w-md">
             <div className="flex items-center gap-3">
-              <img src="/elysium_ai_logo.png" alt="Elysium AI" className="h-18 w-18 object-contain" />
+              <img src="/elysium_ai_logo.png" alt="Elysium AI" className="h-16 w-16 object-contain" />
               <div>
                 <div className="font-black tracking-[0.14em] text-[#14102A]">ELYSIUM AI</div>
                 <div className="text-xs font-semibold text-[#6E6690]">Automate · Innovate · Dominate</div>
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-3 border-t border-[#E4E0F0] pt-6 text-xs text-[#80789A] sm:flex-row sm:items-center sm:justify-between">
-          <span>© {year} Elysium AI. All rights reserved.</span>
+          <span>© {year} Elysium AI™. All rights reserved.</span>
           <span>elysiumai.website</span>
         </div>
       </div>
