@@ -23,12 +23,12 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#F7F6FB]/90 backdrop-blur-xl border-b border-[#E4E0F0] shadow-sm' : 'bg-[#F7F6FB]/70 backdrop-blur-md'}`}>
-            <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
-        <a href="#top" className="flex items-center gap-4" aria-label="Elysium AI home">
-          <img src="/elysium_ai_logo.png" alt="Elysium AI" className="h-16 w-16 object-contain" />
+                 <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
+        <a href="#top" className="flex items-center gap-3" aria-label="Elysium AI home">
+          <img src="/elysium_ai_logo.png" alt="Elysium AI" className="h-14 w-14 object-contain" />
           <div className="leading-tight">
-            <div className="text-xl font-extrabold tracking-[0.14em] text-[#14102A]">ELYSIUM AI</div>
-            <div className="text-sm font-medium text-[#6E6690]">Automation systems</div>
+            <div className="text-lg font-extrabold tracking-[0.14em] text-[#14102A]">ELYSIUM AI</div>
+            <div className="text-xs font-medium text-[#6E6690]">Automation systems</div>
           </div>
         </a>
 
