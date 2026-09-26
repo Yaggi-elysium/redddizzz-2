@@ -11,15 +11,10 @@ export default function Hero() {
       <div className="pointer-events-none absolute -right-20 top-10 h-96 w-96 rounded-full bg-[#3C2484]/10 blur-3xl" />
 
       <div className="mx-auto grid min-h-[760px] max-w-7xl items-center gap-14 px-5 pb-20 sm:px-6 lg:grid-cols-[1.08fr_.92fr] lg:px-8 lg:pb-28">
-        <div className="relative z-10">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#DDD8EC] bg-white/80 px-4 py-2 text-xs font-extrabold uppercase tracking-[0.16em] text-[#3C2484] shadow-sm">
-            <Sparkles className="h-4 w-4 text-[#0084CC]" />
-            AI automation studio
-          </div>
-
-          <h1 className="max-w-4xl text-5xl font-black leading-[1.02] tracking-[-0.045em] text-[#14102A] sm:text-6xl lg:text-[74px]">
-            Automate the work that
-            <span className="block text-[#0084CC]">slows your business down.</span>
+               <div className="relative z-10">
+          <h1 className="max-w-4xl text-5xl font-black leading-[1.05] tracking-[-0.045em] text-[#14102A] sm:text-6xl lg:text-[72px]">
+            Automate the work that slows
+            <span className="block text-[#0084CC]">your business down.</span>
           </h1>
 
           <p className="mt-7 max-w-2xl text-lg leading-8 text-[#6E6690] sm:text-xl">
