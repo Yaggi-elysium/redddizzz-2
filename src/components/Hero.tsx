@@ -32,7 +32,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-[#5F587C]">
-            {['Built around your workflow', 'Connects with your existing tools', 'Human handoff when needed'].map((item) => (
+            {['Built around your business', 'Connects with your existing tools', 'Human handoff when needed'].map((item) => (
               <span key={item} className="inline-flex items-center gap-2">
                 <span className="grid h-5 w-5 place-items-center rounded-full bg-[#0084CC]/10 text-[#0084CC]"><Check className="h-3.5 w-3.5" /></span>
                 {item}
